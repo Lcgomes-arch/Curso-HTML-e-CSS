@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+
+        iframe{
+            width: 95vw;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lore ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+    <ul>
+        <li><a href="index copy.html" target="frame">Opção 1</a></li>
+        <li><a href="font1.html" target="frame">Opção 2</a></li>
+        <li><a href="index.html" target="frame">Opção 3</a></li>
+    </ul>
+    <p>lore ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <p>lorre ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+    <iframe name="frame" srcdoc="<h1>Bem-vindo!</h1><p>Escolha uma das opções acima para ver o conteúdo.</p> <img src='imagens/diamantes.png' alt='Diamantes' width='350px'>">
+        <p>Infelizmente, seu navegador não suporta iframes.</p>
+    </iframe>
+    <p>lore ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+</body>
+</html>
