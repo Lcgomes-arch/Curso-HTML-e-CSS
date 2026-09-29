@@ -8,6 +8,7 @@
 
 
     main {
+        width: 90%;
         border: 2px solid black;
     }
 
@@ -15,7 +16,11 @@
         text-shadow: none;
         color: black;
     }
-
+    
+    main::after{
+        content: 'Essa impressão foi feita através do site www.cursoemvideo.com';
+        text-decoration: overline;
+    }
     img#phone {
     display: none;
 }
