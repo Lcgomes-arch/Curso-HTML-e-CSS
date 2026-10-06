@@ -35,5 +35,30 @@ menu a{
     text-decoration: none;
     background-color: rgb(4, 92, 4);
     color: white;
+    text-align: center;
+    border-top: 2px solid rgb(3, 100, 3);
 }
 
+menu a:hover{
+    background-color: green;
+    
+}
+
+main{
+    width: 90vw;
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+article{
+    padding-bottom: 20px;
+}
+
+artticle > p{
+    text-align: justify;
+    marging-bottom: 10px;
+    text-indent: 20px;
+}
